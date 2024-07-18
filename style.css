@@ -1,0 +1,42 @@
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    color: purple;
+    font-size: 50px;
+    cursor: pointer;
+}
+h1{
+    color: green;
+}
+#gameContainer{
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+}
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
+.result{
+    color: green;
+    font-size: 30px;
+}
+.reset-btn{
+    cursor: pointer;
+    color:black;
+    padding: 12px;
+    width: 200px;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 14px;
+    font-weight: 600;
+    font-size: 20px;
+    transition: all 0.5s ease;
+}
+.reset-btn:active{
+    background-color: red;
+}
